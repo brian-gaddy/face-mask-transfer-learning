@@ -1,0 +1,5 @@
+true_label,incorrect_mask,with_mask,without_mask,total
+incorrect_mask,91,24,26,141
+with_mask,15,699,31,745
+without_mask,12,26,728,766
+total,118,749,785,1652
