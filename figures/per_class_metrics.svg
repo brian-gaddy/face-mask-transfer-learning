@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+  <rect width="980" height="560" fill="#ffffff"/>
+  <text x="490" y="42" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#1f2937">VGG16 Per-Class Precision / Recall / F1</text>
+  <text x="490" y="72" text-anchor="middle" font-family="Arial" font-size="14" fill="#6b7280">Mask-classification performance by label</text>
+  <line x1="210" y1="450" x2="880" y2="450" stroke="#9ca3af"/>
+  <line x1="210" y1="130" x2="210" y2="450" stroke="#9ca3af"/>
+  <g font-family="Arial" font-size="13" fill="#374151">
+    <text x="198" y="455" text-anchor="end">0.0</text>
+    <text x="198" y="375" text-anchor="end">0.25</text>
+    <text x="198" y="295" text-anchor="end">0.50</text>
+    <text x="198" y="215" text-anchor="end">0.75</text>
+    <text x="198" y="135" text-anchor="end">1.00</text>
+    <text x="295" y="485" text-anchor="middle">incorrect_mask</text>
+    <text x="545" y="485" text-anchor="middle">with_mask</text>
+    <text x="780" y="485" text-anchor="middle">without_mask</text>
+  </g>
+  <g>
+    <line x1="210" y1="370" x2="880" y2="370" stroke="#e5e7eb"/>
+    <line x1="210" y1="290" x2="880" y2="290" stroke="#e5e7eb"/>
+    <line x1="210" y1="210" x2="880" y2="210" stroke="#e5e7eb"/>
+    <line x1="210" y1="130" x2="880" y2="130" stroke="#e5e7eb"/>
+  </g>
+  <g font-family="Arial" font-size="12" text-anchor="middle">
+    <rect x="245" y="203" width="35" height="247" fill="#2563eb"/><text x="262" y="194" fill="#111827">0.771</text>
+    <rect x="285" y="244" width="35" height="206" fill="#10b981"/><text x="302" y="235" fill="#111827">0.645</text>
+    <rect x="325" y="225" width="35" height="225" fill="#f59e0b"/><text x="342" y="216" fill="#111827">0.703</text>
+    <rect x="495" y="151" width="35" height="299" fill="#2563eb"/><text x="512" y="142" fill="#111827">0.933</text>
+    <rect x="535" y="150" width="35" height="300" fill="#10b981"/><text x="552" y="141" fill="#111827">0.938</text>
+    <rect x="575" y="150" width="35" height="300" fill="#f59e0b"/><text x="592" y="141" fill="#111827">0.936</text>
+    <rect x="730" y="153" width="35" height="297" fill="#2563eb"/><text x="747" y="144" fill="#111827">0.927</text>
+    <rect x="770" y="146" width="35" height="304" fill="#10b981"/><text x="787" y="137" fill="#111827">0.950</text>
+    <rect x="810" y="150" width="35" height="300" fill="#f59e0b"/><text x="827" y="141" fill="#111827">0.939</text>
+  </g>
+  <g font-family="Arial" font-size="14" fill="#111827">
+    <rect x="330" y="510" width="16" height="16" fill="#2563eb"/><text x="352" y="523">Precision</text>
+    <rect x="450" y="510" width="16" height="16" fill="#10b981"/><text x="472" y="523">Recall</text>
+    <rect x="545" y="510" width="16" height="16" fill="#f59e0b"/><text x="567" y="523">F1-score</text>
+  </g>
+</svg>
