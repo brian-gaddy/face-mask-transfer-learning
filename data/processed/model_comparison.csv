@@ -1,0 +1,4 @@
+model,test_accuracy,test_loss,rank,notes
+VGG16,0.918886,0.2463,1,Best evaluated transfer-learning backbone in the notebook
+ResNet50,0.602906,0.8040,2,Moderate baseline performance
+EfficientNetB0,0.509080,0.9212,3,Lowest evaluated baseline performance
