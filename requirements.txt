@@ -1,0 +1,7 @@
+tensorflow>=2.15,<3
+numpy>=1.24
+matplotlib>=3.7
+pillow>=10.0
+scikit-learn>=1.3
+jupyter>=1.0
+pytest>=8.0
