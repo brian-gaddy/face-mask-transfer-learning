@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <rect width="900" height="620" fill="#ffffff"/>
+  <text x="450" y="45" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#1f2937">VGG16 Confusion Matrix</text>
+  <text x="450" y="78" text-anchor="middle" font-family="Arial" font-size="14" fill="#6b7280">Three-class face-mask classification summary</text>
+  <text x="470" y="115" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#374151">Predicted Label</text>
+  <text x="42" y="350" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#374151" transform="rotate(-90 42 350)">True Label</text>
+  <g font-family="Arial" font-size="14" fill="#111827">
+    <text x="285" y="150" text-anchor="middle" font-weight="700">incorrect_mask</text>
+    <text x="455" y="150" text-anchor="middle" font-weight="700">with_mask</text>
+    <text x="625" y="150" text-anchor="middle" font-weight="700">without_mask</text>
+    <text x="150" y="235" text-anchor="end" font-weight="700">incorrect_mask</text>
+    <text x="150" y="365" text-anchor="end" font-weight="700">with_mask</text>
+    <text x="150" y="495" text-anchor="end" font-weight="700">without_mask</text>
+  </g>
+  <g font-family="Arial" font-size="30" font-weight="700" text-anchor="middle">
+    <rect x="200" y="175" width="160" height="110" fill="#93c5fd" stroke="#ffffff" stroke-width="3"/><text x="280" y="240" fill="#111827">91</text>
+    <rect x="370" y="175" width="160" height="110" fill="#dbeafe" stroke="#ffffff" stroke-width="3"/><text x="450" y="240" fill="#111827">24</text>
+    <rect x="540" y="175" width="160" height="110" fill="#dbeafe" stroke="#ffffff" stroke-width="3"/><text x="620" y="240" fill="#111827">26</text>
+    <rect x="200" y="305" width="160" height="110" fill="#dbeafe" stroke="#ffffff" stroke-width="3"/><text x="280" y="370" fill="#111827">15</text>
+    <rect x="370" y="305" width="160" height="110" fill="#1d4ed8" stroke="#ffffff" stroke-width="3"/><text x="450" y="370" fill="#ffffff">699</text>
+    <rect x="540" y="305" width="160" height="110" fill="#bfdbfe" stroke="#ffffff" stroke-width="3"/><text x="620" y="370" fill="#111827">31</text>
+    <rect x="200" y="435" width="160" height="110" fill="#dbeafe" stroke="#ffffff" stroke-width="3"/><text x="280" y="500" fill="#111827">12</text>
+    <rect x="370" y="435" width="160" height="110" fill="#dbeafe" stroke="#ffffff" stroke-width="3"/><text x="450" y="500" fill="#111827">26</text>
+    <rect x="540" y="435" width="160" height="110" fill="#1e40af" stroke="#ffffff" stroke-width="3"/><text x="620" y="500" fill="#ffffff">728</text>
+  </g>
+  <text x="450" y="585" text-anchor="middle" font-family="Arial" font-size="14" fill="#6b7280">Overall accuracy: 91.89% • VGG16 selected as best evaluated model</text>
+</svg>
