@@ -1,0 +1,7 @@
+class,precision,recall,f1_score,support
+incorrect_mask,0.771,0.645,0.703,141
+with_mask,0.933,0.938,0.936,745
+without_mask,0.927,0.950,0.939,766
+accuracy,,,0.919,1652
+macro_avg,0.877,0.844,0.859,1652
+weighted_avg,0.916,0.919,0.917,1652
